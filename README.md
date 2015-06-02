@@ -1,5 +1,5 @@
 # VisualServiceMonitor
-A real-time visualization for monitoring Windows Services written in Powershell
+A PowerShell script for monitoring status of Windows Services in real-time
 
 ![alt tag](http://i.imgur.com/KzwPFD2.gif)
 
