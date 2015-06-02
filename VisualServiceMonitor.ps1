@@ -36,8 +36,7 @@ function ListRefresh
 		$cursor.y = $y
 		$Host.UI.RawUI.CursorPosition = $cursor
 		Write-Host -NoNewLine -foregroundcolor 'white' '--'
-		$temp = $y - 2
-		Write-Host -NoNewLine -foregroundcolor $color "Service $temp"
+		Write-Host -NoNewLine -foregroundcolor $color $s.servicename
 		$y++
 	}
 	Write-Host
@@ -76,7 +75,7 @@ function Initialize
 	$global:listCursorHead = $Host.UI.RawUI.CursorPosition
 	$global:listSize = @(Get-service -ComputerName $global:hostName dataonline*).Count
 	
-	$Host.UI.RawUI.WindowTitle = "Visual Service Monitor ($global:hostName)"
+	$Host.UI.RawUI.WindowTitle = "DataOnline Service Monitor ($global:hostName)"
 	$Host.UI.RawUI.CursorSize = 0
 	ResizeUI
 }

@@ -1,2 +1,2 @@
-cmd /c start powershell -NoExit -NonInteractive -File .\VisualServiceMonitorGUI.ps1
+cmd /c start powershell -NoExit -NonInteractive -File .\VisualServiceMonitor.ps1
 
