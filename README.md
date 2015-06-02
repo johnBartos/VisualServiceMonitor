@@ -1,11 +1,11 @@
 # VisualServiceMonitor
-A real-time visualization for monitoring Windows Services written in Powershell
+A PowerShell script for monitoring status of Windows Services in real-time
 
 ![alt tag](http://i.imgur.com/KzwPFD2.gif)
 
--Functions by invoking get-service on a background job, which generates an event consumed by the console
+-Invokes get-service on a background job, which generates an event consumed by the console
 
--The monitor can handle any number of services up to the vertical buffer size of the screen
+-Can handle any number of services up to the vertical buffer size of the screen
 
 -Supports dynamic resizing triggered by adding or removing service
 
