@@ -13,7 +13,7 @@ A PowerShell script for monitoring status of Windows Services in real-time
 
 Instructions:
 
--Run InvokeServiceMonitor with Powershell
+-Run 'RunVisualServiceMonitor' with PowerShell
 
 Requires:
 
